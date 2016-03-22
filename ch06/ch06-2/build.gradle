@@ -1,0 +1,15 @@
+task hello <<{
+	println 'hello world!'
+}
+
+hello.doFirst{
+	println 'hello world First!'
+}
+
+hello.doLast{
+	println 'Hello world Last!'
+}
+
+hello <<{
+	println 'hello world end!'
+}

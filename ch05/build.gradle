@@ -1,0 +1,6 @@
+4.times{
+	counter ->
+	task "task$counter" <<{
+		println "i'm task number $counter"
+	}
+}
