@@ -1,0 +1,5 @@
+task upper << {
+	String somestring = "mY_Name"
+	println 'print:' + somestring
+	println 'print uppercase:' + somestring.toUpperCase()
+}
