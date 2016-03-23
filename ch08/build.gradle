@@ -1,0 +1,7 @@
+task myProperties {
+	ext.property = "this is a property!"
+}
+
+task printProperties << {
+	println   myProperties.property
+}

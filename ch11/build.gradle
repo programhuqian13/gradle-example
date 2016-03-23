@@ -1,0 +1,13 @@
+defaultTasks 'clean','run'
+
+task clean << {
+	println "default cleaning!"
+}
+
+task run << {
+	println "default running!"
+}
+
+task other << {
+	println "other task running!"
+}
